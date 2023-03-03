@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "glader backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "cd",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.9.0",
+    "router": "^1.3.8"
+  }
+}
