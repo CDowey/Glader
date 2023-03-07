@@ -2,6 +2,7 @@
 const router = require('express').Router();
 const pool = require("../db");
 
+// Get all glades
 router.get("/api/glades", async(req, res)=>{
 
     try{
@@ -13,5 +14,9 @@ router.get("/api/glades", async(req, res)=>{
         res.status(500).send("server error");
     }
 });
+
+// Get a glade
+
+
 
 module.exports = router;
